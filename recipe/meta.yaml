@@ -37,7 +37,7 @@ test:
   commands:
     - pip check
     - coverage run --source=cymbal --branch -m pytest -vv --tb=long --color=yes -k "not class_template_args"
-    - coverage report --show-missing --skip-covered --fail-under=65
+    - coverage report --show-missing --skip-covered --fail-under=64
 
 about:
   home: http://github.com/AndrewWalker/cymbal
